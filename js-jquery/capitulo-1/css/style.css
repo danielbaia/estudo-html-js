@@ -1,0 +1,81 @@
+/*CSS for adding content example*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: url("../images/constructive-backdrop.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, p {
+ float: left;
+ clear: left;
+ width: 320px;
+ background-color: #fff;
+ color: #555544;
+ text-align: center;
+}
+
+h1{
+    margin: 50px 0 0 50px;
+    height: 175px;
+    background-image: url(../images/constructive-logo.gif);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    border-top: 1px solid#bbbbcc;
+    border-left: 1px solid#bbbbcc;
+    border-right: 1px solid#bbbbcc;
+}
+
+h3{
+    margin: 0 0 0 50px;
+    padding: 25px 0 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6em;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 0.8em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-left: 1px solid#bbbbcc;
+    border-right: 1px solid#bbbbcc;
+}
+
+p{
+    margin: 0 0 0 50px;
+    padding: 30px 0 25px 0;
+    text-align: center;
+    border-left: 1px solid#bbbbcc;
+    border-right: 1px solid#bbbbcc;
+    border-bottom: 1px solid#bbbbcc;
+}
+
+p + script + h3{
+    padding-bottom: 20px;
+    border-bottom: 1px solid#bbbbcc;
+}
+
+
+
+
+*** Seta para DIREITA
+**/
+.seta-direita:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid green;
+}
